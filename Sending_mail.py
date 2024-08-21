@@ -24,10 +24,8 @@ def send_mail():
     login(email_address, email_pass, s)
 
     # Message to be sent
-    subject = "Yoooooo"
-    body = """testing mic.\n
-    12344566\n
-    12226."""
+    subject = ""
+    body = """ """
 
     with open("emails.csv", newline="") as csvfile:
         spamreader = csv.reader(csvfile)
